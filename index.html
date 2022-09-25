@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <title>Play Music</title>
+
+</head>
+<body>
+  <main class="container">
+  <h1>Music Play</h1>
+  <div class="descricao">
+    <h2>Nome da Musica</h2>
+    <i>nome do artista</i>
+  </div>
+  <div class="duracao">
+    <div class="barra">
+      <progress value="0" max= "1"></progress>
+      <div class="ponto" draggable="true"></div>
+    </div>
+    <div class="tempo">
+      <p class="inicio">0:00</p>
+      <p class="fim">0:00</p>
+    </div>
+  </div>
+  <div class="player">
+    <i class="fi fi-rr-angle-left"></i>
+    <i class="fi fi-rr-pause"></i>
+    <i class="fi fi-rr-play"></i>
+    <i class="fi fi-rr-angle-right"></i>
+  </div>
+  </main>
+  <p id="paragraph"></p>
+  <audio src="Album O Rappa/O Rappa - Homem amarelo [www.slider.kz].mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
